@@ -143,9 +143,9 @@ const URHIDU_CONFIG = {
         am: '',
         om: ''
       },
-      price: 250, tags: ['', ''], allergens: { en: '', am: '', om: '' }, 
+      price: 300, tags: ['', ''], allergens: { en: '', am: '', om: '' }, 
       pairing: { en: '', am: '', om: '' },
-      image: '/Images/b1.jpg' 
+      image: '/Images/b.jpg' 
     },
     { 
       id: 'b2', category: 'Breakfast', 
