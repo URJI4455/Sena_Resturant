@@ -1,0 +1,16 @@
+@keyframes riseIn{from{opacity:0;transform:translateY(28px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes float{0%,100%{transform:translate3d(0,0,0) rotate(0)}50%{transform:translate3d(0,-16px,0) rotate(2deg)}}
+@keyframes pulseGlow{0%,100%{box-shadow:0 0 26px rgba(255,157,0,.18)}50%{box-shadow:0 0 56px rgba(255,157,0,.34)}}
+.reveal-on-load{animation:riseIn .9s var(--ease) both}
+.delay-1{animation-delay:.16s}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.is-visible{opacity:1;transform:none}
+.floating-card{position:absolute;z-index:1;padding:.8rem 1rem;border-radius:999px;border:1px solid var(--line);background:var(--panel);backdrop-filter:blur(12px);color:var(--text);animation:float 5s ease-in-out infinite}
+.mini-card-one{right:8%;top:20%}
+.mini-card-two{left:6%;bottom:18%;animation-delay:1.3s}
+.glass-plate{position:absolute;right:6%;top:14%;width:11rem;height:11rem;border:1px solid rgba(255,157,0,.25);border-radius:2rem;background:linear-gradient(135deg,rgba(255,157,0,.16),var(--panel));transform:rotate(18deg);animation:pulseGlow 4s ease-in-out infinite}
+.particle{position:absolute;width:4px;height:4px;border-radius:50%;background:var(--primary);opacity:.38;animation:float var(--speed,7s) ease-in-out infinite;transform:translate3d(var(--x),var(--y),0)}
+.ripple span.ripple-dot{position:absolute;border-radius:50%;transform:scale(0);background:rgba(255,255,255,.55);animation:ripple .6s linear;pointer-events:none}
+@keyframes ripple{to{transform:scale(4);opacity:0}}
+.menu-card.filter-enter{animation:riseIn .42s var(--ease) both}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}.hero-particles,.hero-depth{display:none}}
