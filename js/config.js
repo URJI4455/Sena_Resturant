@@ -28,10 +28,10 @@ const URHIDU_CONFIG = {
       am: 'በከተማው እምብርት የሚገኝ የቅንጦት እና የምግብ ጥበብ ማዕከል። የላቀ መስተንግዶን ዘወትር ይለማመዱ።', 
       om: 'Magaalaa keessatti iddoo jireenya qananii fi aadaa nyaataa addaa. Yeroo hunda tajaajila addunyaa sadarkaa qabu argadhu.' 
     },
-    phoneRaw: '+251911000000',
-    phone: { en: '+251 911 000 000', am: '+251 911 000 000', om: '+251 911 000 000' },
-    todayHours: { en: 'Open 6:00 AM - 11:30 PM', am: 'ከ 12:00 ጠዋት እስከ 5:30 ማታ ክፍት ነው', om: 'Banaa 12:00 ganama - 5:30 halkan' },
-    openingHoursShort: { en: 'Daily, 6:00 AM - 11:30 PM', am: 'ዘወትር, 12:00 ጠዋት - 5:30 ማታ', om: 'Guyyaa hunda, 12:00 ganama - 5:30 halkan' },
+    phoneRaw: '0985154000',
+    phone: { en: '0985154000', am: '+251 911 000 000', om: '+251 911 000 000' },
+    todayHours: { en: 'Open 8:00 AM - 10:00 PM', am: 'ከ 12:00 ጠዋት እስከ 5:30 ማታ ክፍት ነው', om: 'Banaa 12:00 ganama - 5:30 halkan' },
+    openingHoursShort: { en: 'Daily, 8:00 AM - 10:00 PM', am: 'ዘወትር, 12:00 ጠዋት - 5:30 ማታ', om: 'Guyyaa hunda, 12:00 ganama - 5:30 halkan' },
     address: { en: 'Aliyyi, Jarba, Sabian, Dire Dawa, Ethiopia', am: 'ቦሌ አዲስ አበባ፣ ኢትዮጵያ', om: 'Kutaa Bolee, Finfinnee, Itoophiyaa' },
     
     // Detailed Storytelling Paragraphs
@@ -96,8 +96,8 @@ const URHIDU_CONFIG = {
 // Add these inside the dict: { ... } object in config.js
     wifiTitle: { en: 'Guest Wi-Fi', am: 'ነፃ ዋይፋይ', om: 'Wi-Fi Keessummaa' },
     paymentTitle: { en: 'Accepted Payments', am: 'የክፍያ አማራጮች', om: 'Kaffaltii Fudhatamuu' },
-    wifiID: { en: 'Urhidu_Guest_5G', am: 'Urhidu_Guest_5G', om: 'Urhidu_Guest_5G' },
-    wifiPass: { en: 'Urhidu2026', am: 'Urhidu2026', om: 'Urhidu2026' },
+    wifiID: { en: 'Stay Tuned...', am: 'Urhidu_Guest_5G', om: 'Urhidu_Guest_5G' },
+    wifiPass: { en:'Stay Tuned...', am: 'Urhidu2026', om: 'Urhidu2026' },
 
 
 
